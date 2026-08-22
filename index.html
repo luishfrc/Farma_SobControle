@@ -31,9 +31,14 @@ p {
 }
 </style>
 
-<script type="text/javascript" src="./index_files/c8d3a069-77c7-41b6-927e-06a4c17fac35" data-awssuidacr="4da616f2-f36a-4600-8d90-8f680dbf97f6"></script><style id="dark-reader-style" type="text/css">@media screen {
-html {-webkit-transition : -webkit-filter 300ms linear;}
-}</style><script type="text/javascript" src="./index_files/986df696-a484-42dc-a3ed-0466520e31dc"></script></head>
+<script type="text/javascript" src="./index_files/c8d3a069-77c7-41b6-927e-06a4c17fac35" data-awssuidacr="4da616f2-f36a-4600-8d90-8f680dbf97f6">
+</script>
+<style id="dark-reader-style" type="text/css">@media screen {html {-webkit-transition : -webkit-filter 300ms linear;}}
+</style>
+<script type="text/javascript" src="./index_files/986df696-a484-42dc-a3ed-0466520e31dc">
+</script>
+
+</head>
 <body>
 
 <div class="container">
@@ -43,19 +48,18 @@ html {-webkit-transition : -webkit-filter 300ms linear;}
 As informações pessoais são processadas quando você cria a conta no aplicativo Sob Controle.
 Processamos dados inseridos no monitor de glicemia da marca Accu-Chek® inseridos por você como por exemplo nome, CPF, CNS, e-mail, nome do genitor(a), sexo, endereço completo, telefone de contato, data de nascimento, faixa de diabetes, tipo de insulina, data do diagnóstico, bem como a frequência com que você escaneia ou usa o monitor e os valores com horários, metas de glicose e insumos fornecidos. Também coletamos informações pessoais se você solicitar o serviço de suporte ao cliente Accu-Chek®.<br><br>
 Os seus dados pessoais são rigorosamente limitados com quem compartilhamos e não são vendidos a terceiros para benefícios comerciais. Os dados pessoais podem ser compartilhados com terceiros fornecedores de serviços em nuvem, que no caso específico é a DigitalOcean, Inc. Também informamos que os dados poderão ser compartilhados, de modo anonimizado, com empresas do Grupo Roche, para fins estatísticos.<br><br>
-As informações são utilizadas para gerar relatórios, estatísticos, para um melhor tratamento ou gerenciamento dos insumos fornecidos. Importante ressaltar que os dados pessoais inseridos por você, tais como nome, idade e endereço devem ser fidedignos e não são alterados por nós e refletirão conforme forem coletados.
-</p>
-
-<p><label><strong>UBS: </strong></label>
-    <select id="menu" name="menu" __cpp="1">
-    <option value="opicao1" __cpp="1">PEDRO IZZO</option>
-    <option value="opicao2" __cpp="1">PASTOR JOSÉ ROBERTO ROSSI</option>
-    <option value="opicao3" __cpp="1">DRA KATIA KOHLER</option>
-    <option value="opicao5" __cpp="1"></option>
-    </select>
+As informações são utilizadas para gerar relatórios, estatísticos, para um melhor tratamento ou gerenciamento dos insumos fornecidos. Importante ressaltar que os dados pessoais inseridos por você, tais como nome, idade e endereço devem ser fidedignos e não são alterados por nós e refletirão conforme forem coletados.</p>
+<p>
+    <label><strong>UBS: </strong></label>
+        <select id="menu" name="menu" __cpp="1">
+            <option value="opicao1" __cpp="1">PEDRO IZZO</option>
+            <option value="opicao2" __cpp="1">PASTOR JOSÉ ROBERTO ROSSI</option>
+            <option value="opicao3" __cpp="1">DRA KATIA KOHLER</option>
+            <option value="opicao4" __cpp="1"></option>
+        </select>
 </p>
         <p><strong>Nome:</strong> <input type="paci" id="nome" name="Paciente" contenteditable="true" placeholder="" size="80pt"></p>
-        <p><strong>Assinatura:</strong> ____________________________________________________</p>
+        <p><strong>Assinatura:</strong> _______________________________________________________________________</p>
         <p>
           <strong>Barueri:</strong> <input type="date" id="data-atual">
         </p>
@@ -63,10 +67,9 @@ As informações são utilizadas para gerar relatórios, estatísticos, para um 
         const hoje = new Date().toISOString().split('T')[0];
         document.getElementById('data-atual').value = hoje;
         </script>
-
-    <div style="text-align: right;">
+    <!-- <div style="text-align: right;">
         <input id="print" type="button" value="Imprimir" onclick="window.print()">
-    </div> 
+    </div> -->
 </div>
 
 
